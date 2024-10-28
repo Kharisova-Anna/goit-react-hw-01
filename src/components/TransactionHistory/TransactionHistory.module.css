@@ -1,0 +1,33 @@
+.table {
+    width: 900px;
+    border: 2px solid black;
+    margin: 0 auto 60px;
+    border-collapse: collapse;
+}
+
+.thead {
+    color: white;
+    background-color: rgb(36, 36, 36);
+    font-size: 20px;
+}
+
+.tableRow {
+    text-align: center;
+}
+
+.tableRow:nth-child(even) {
+    background-color: rgb(201, 197, 197);
+}
+
+.tableHeader,
+.tableData {
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 6px 0;
+    width: calc(100% /3);
+    font-weight: bold;
+}
+
+.tableType {
+    text-transform: capitalize;
+}  

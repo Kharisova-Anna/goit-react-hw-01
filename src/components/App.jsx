@@ -1,10 +1,9 @@
 import userData from "./userData.json";
 import Profile from "./Profile/Profile";
 import FriendList from "./FriendList/FriendList";
-import friends from "../assets/friends.json"
-
-
-
+import friends from "../assets/friends.json";
+import transactions from "../assets/transactions.json";
+import TransactionHistory from "./TransactionHistory/TransactionHistory";
 import "../index.css";
 import "modern-normalize";
 
@@ -20,7 +19,7 @@ const App = () => {
         stats={userData.stats}
       />
       <FriendList friends={friends} />
-      
+      <TransactionHistory items={transactions} />
     </>
   );
 };
